@@ -1,7 +1,7 @@
-diff --git a/dist/compiler/js/compiler.js b/dist/compiler/js/compiler.js
-index de3efe9cd19b494a1163299337d7fd82c3e74abb..35f42bf85efcf187ccff5eba02faac383cab9bef 100644
---- a/dist/compiler/js/compiler.js
-+++ b/dist/compiler/js/compiler.js
+diff --git a/node_modules/@remix-run/dev/dist/compiler/js/compiler.js b/node_modules/@remix-run/dev/dist/compiler/js/compiler.js
+index db610f2..ee8c76f 100644
+--- a/node_modules/@remix-run/dev/dist/compiler/js/compiler.js
++++ b/node_modules/@remix-run/dev/dist/compiler/js/compiler.js
 @@ -32,6 +32,7 @@ var vanillaExtract = require('../plugins/vanillaExtract.js');
  var invariant = require('../../invariant.js');
  var hmr = require('./plugins/hmr.js');
@@ -19,10 +19,10 @@ index de3efe9cd19b494a1163299337d7fd82c3e74abb..35f42bf85efcf187ccff5eba02faac38
    if (ctx.options.mode === "development" && ctx.config.future.v2_dev) {
      plugins.push(hmr.hmrPlugin(ctx));
    }
-diff --git a/dist/compiler/server/compiler.js b/dist/compiler/server/compiler.js
-index 5080241042b562d270c477fe2cc92972f5b63cb3..07b9d9599f78082f509c709fdeb1d383c4a4e17a 100644
---- a/dist/compiler/server/compiler.js
-+++ b/dist/compiler/server/compiler.js
+diff --git a/node_modules/@remix-run/dev/dist/compiler/server/compiler.js b/node_modules/@remix-run/dev/dist/compiler/server/compiler.js
+index e6b5952..5abe23f 100644
+--- a/node_modules/@remix-run/dev/dist/compiler/server/compiler.js
++++ b/node_modules/@remix-run/dev/dist/compiler/server/compiler.js
 @@ -30,6 +30,7 @@ var routes = require('./plugins/routes.js');
  var external = require('../plugins/external.js');
  var cssBundlePlugin = require('../plugins/cssBundlePlugin.js');
